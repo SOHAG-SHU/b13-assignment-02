@@ -10,13 +10,20 @@
    box-sizing: border-box;
 }
 
+.container {
+    width: 85%;
+    height: 760px;
+    max-width: 1600px;
+    margin: 0px auto;
+    /* border: 3px solid #7300ff; */
+}
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 0px auto;
-    max-width: 1600;
-    width: 75%;
+    max-width: 1600px;
+    width: 85%;
 }
 
 .header{
@@ -37,7 +44,7 @@ nav .menu {
 }
 
 nav .menu a {
-    font-size: 16px;
+    font-size: 1rem;
     color:#FFFFFF;
     text-decoration: none;
     line-height: 120%;
@@ -98,4 +105,158 @@ nav .menu a {
   transform: translateX(4px);
 }
 
+/* nav > span {
+  margin-right: 5px;
+  display: none;
+} */
 
+.section{
+  max-width: 1600px;;
+  background-image: url("./assets/hero-bg.png");
+}
+
+.banner-photo{
+  /* border: 4px solid red; */
+  margin: 101px 525px;
+  width: 550px;
+  height: 558px;
+}
+
+.banner-pic{
+  margin-left: 100px;
+  width: 350px;
+  height: 350px;
+  /* border: 2px solid red; */
+  background-image: url("./assets/hero-circle.png");
+}
+
+.banner-pic img{
+  /* margin-top: 69px;
+  margin-left: 75px; */
+  margin: 30px auto;
+}
+.banner-btn{
+  width: 75px;
+  height: 38px;
+  color: #1A0B2E;
+  background-color: #00FF88;
+  border-radius: 1000px;
+  padding: 4px 18px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  align-items: center;
+  margin-left: 252px;
+  margin-top: 12px;
+  gap: 10px;
+}
+
+.tooltip {
+  /* background-color: rgba(128, 128, 128, 0.302); */
+  
+  right: 10%;
+  width: 193px;
+  height: 98px;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 12px;
+  top: 17%;
+  color: #FFFFFF;
+}
+
+
+
+.banner-text{
+  text-align: center;
+}
+
+.banner-text h1{
+  font-size: 60px;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.banner-text p{
+   font-size: 15px;
+  font-weight: 400;
+  color: #FFFFFF;
+
+  
+}
+
+.spotify-btn {
+  background: linear-gradient(25deg, #F7E93F 0%, #FB09B4 , #9100F8 100%);
+  color: white;
+  border: none;
+  width: 201px;
+  height: 44px;
+  padding: 20px 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 1000px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 0 0 4px rgba(255, 0, 255, 0.15);
+  transition: all 0.3s ease;
+}
+
+.parent-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.subscribe1-btn {
+  /* background: transparent; */
+  width: 147px;
+  height: 44px;
+  color: #00FF88; 
+  border: 1.5px solid #00FF88; 
+  border-radius: 1000px; 
+  padding: 20px 12px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 8px; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Subtle hover effect */
+.subscribe1-btn:hover {
+  background-color: rgba(0, 230, 118, 0.1);
+  box-shadow: 0 0 10px rgba(0, 230, 118, 0.3);
+}
+
+
+
+@media screen and (max-width: 576px) {
+  nav .menu{
+    display: none;
+  }
+
+  nav > span {
+    margin-right: 5px;
+    display: inline;
+  }
+
+  .logo {
+    font-size: 36px;
+  }
+
+  .subscribe-btn {
+    width: auto;
+    padding: 6px 5px;
+    font-size: 16px;
+  }
+}
