@@ -404,10 +404,8 @@ main{
   font-size: 16px;
   font-weight: 400;
   color: #FFFFFF;
-  /* margin: 0px auto; */
   margin-left: 40px;
   margin-right: 40px;
-  /* margin-top: 16px; */
 }
 
 
@@ -495,6 +493,110 @@ main{
  
 }
 
+
+/* Feature section */
+.container-3 {
+    width: 85%;
+    height: 1276px;
+    max-width: 1600px;
+    margin:0px auto;
+    background-color: #1A0B2E;
+   border: 3px solid #eb0ab7;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer section */
+footer{
+  background-color:#1A0B2E;
+}
+.container-4 {
+    width: 85%;
+    height: 412px;
+    max-width: 1600px;
+    margin:0px auto;
+    padding: 120px 120px;
+    background-image: url("./assets/footer-bg.png");
+   /* border: 3px solid #460aeb; */
+    
+}
+
+.text-container{
+  max-width: 1360px;
+  height: 172px;
+  /* border: 3px solid #460aeb; */
+  text-align: center;
+
+}
+
+.text-white-1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.text-gradient-1 {
+  font-size: 60px;
+  font-weight: 700;
+  background: linear-gradient(25deg,#F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.footer-card{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 40px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-card img{
+  width: 22px;
+  height: 22px;
+}
+
+.footer-card-1{
+  width: 87px;
+  height: 24px;
+  /* border: 1px solid red; */
+  display: flex;
+}
+.footer-card-2{
+  width: 152px;
+  height: 24px;
+  /* border: 1px solid red; */
+  display: flex;
+}
+.footer-card-3{
+  width: 99px;
+  height: 24px;
+  /* border: 1px solid red; */
+  display: flex;
+}
+.footer-card-4{
+  width: 86px;
+  height: 24px;
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.text-container p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: px;
+}
 @media screen and (max-width: 576px) {
   nav .menu{
     display: none;
