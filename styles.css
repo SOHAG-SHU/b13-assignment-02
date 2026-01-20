@@ -105,10 +105,6 @@ nav .menu a {
   transform: translateX(4px);
 }
 
-/* nav > span {
-  margin-right: 5px;
-  display: none;
-} */
 
 .section{
   max-width: 1600px;;
@@ -131,8 +127,6 @@ nav .menu a {
 }
 
 .banner-pic img{
-  /* margin-top: 69px;
-  margin-left: 75px; */
   margin: 30px auto;
 }
 .banner-btn{
@@ -152,20 +146,6 @@ nav .menu a {
   margin-top: 12px;
   gap: 10px;
 }
-
-.tooltip {
-  /* background-color: rgba(128, 128, 128, 0.302); */
-  
-  right: 10%;
-  width: 193px;
-  height: 98px;
-  padding-left: 20px;
-  padding-top: 20px;
-  border-radius: 12px;
-  top: 17%;
-  color: #FFFFFF;
-}
-
 
 
 .banner-text{
@@ -215,7 +195,6 @@ nav .menu a {
 }
 
 .subscribe1-btn {
-  /* background: transparent; */
   width: 147px;
   height: 44px;
   color: #00FF88; 
@@ -237,6 +216,81 @@ nav .menu a {
   background-color: rgba(0, 230, 118, 0.1);
   box-shadow: 0 0 10px rgba(0, 230, 118, 0.3);
 }
+
+main{
+  background-color: #1A0B2E;
+  margin:0px auto;
+}
+.container-1 {
+    width: 85%;
+    height: 646px;
+    max-width: 1600px;
+    margin:0px auto;
+   
+    
+}
+.about-content{
+  margin: 0px 200px ;
+   /* border: 3px solid #4e0aeb; */
+   text-align: center;
+}
+
+.about-content h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+    
+.about-content p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 20px;
+}
+ 
+
+ .line {
+    width: 75%;
+    height: 1px;
+    background-color: #FFFFFF;
+    opacity: 10%;
+    border: none;
+    margin: 80px auto;
+  }
+
+  .about-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+
+.about-card .card-1{
+  width: 240px;
+  height: 94px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid #eb0ab7; */
+}
+
+.card-1 h1{
+  color: #00FF88;
+  font-size: 48px;
+  font-weight: 900px;
+  font-style: black;
+}
+.card-1 p{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 20px;
+}
+
+
+
 
 
 
