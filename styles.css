@@ -501,17 +501,145 @@ main{
     max-width: 1600px;
     margin:0px auto;
     background-color: #1A0B2E;
-   border: 3px solid #eb0ab7;
+   /* border: 3px solid #eb0ab7; */
+   padding: 120px 200px;
     
 }
 
+.feature{
+  max-width: 1200px;
+  height: 538px;
+  /* border: 2px solid red; */
 
 
+}
+.feature h3{
+  font-size: 48px;
+font-weight: 700;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.feature-card{
+max-width: 1200px;
+height: 440px;
+margin-top: 25px;
+/* border: 2px solid rgb(0, 255, 47); */
+/* display: flex; */
+/* justify-content: space-between; */
+/* align-items: center; */
+/* gap:30px; */
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 30px;
+
+}
 
 
+.feature-card-1{
+max-width: 380px;
+/* height: 440px;
+border: 1px solid rgb(132, 0, 255); */
+background-color: #250D44;
+border-radius: 20px;
+
+}
+
+.c-1{
+  width: 378px;
+  height: 214px;
+  /* border: 1px solid rgb(143, 137, 148); */
+  /* border-radius: 20px; */
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+.c-text-1{
+  width: 380px;
+  height: 226px;
+  /* border: 1px solid rgb(172, 8, 169); */
+ 
+  padding: 24px;
+  
+}
+.c-text-1 h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.c-text-1 p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+   margin-bottom: 12px;
+}
+.clock{
+  display: flex;
+  gap: 6px;
+}
+.clock img{
+width: 20px;
+height: 20px;
+}
+.clock p{
+  color: #00FF88;
+}
 
 
+.feature-text{
+  max-width: 1200px;
+  height: 378px;
+  /* border: 2px solid rgb(0, 34, 255); */
+  margin-top: 120px;
+  padding-top: 98px;
+  
+}
 
+.feature-text .alex{
+  background-color: #351165;
+  /* border: 1px solid red; */
+  max-width: 1200px;
+  height: 280px;
+  border-radius: 40px;
+}
+
+.alex{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 24px;
+}
+.alex .picture{
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.icon{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 2px;
+  gap: 8px;
+}
+
+.text h3{
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.text p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+/* 
+.icon .img-1{
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+  border: 1px solid rgba(83, 60, 114, 1);
+} */
 
 
 
@@ -596,6 +724,12 @@ footer{
   font-weight: 400;
   color: #FFFFFF;
   margin-top: px;
+}
+
+
+
+.hide{
+  display: none;
 }
 @media screen and (max-width: 576px) {
   nav .menu{
